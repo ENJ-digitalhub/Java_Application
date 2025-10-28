@@ -8,17 +8,14 @@ public class UserInput{
 		System.out.print("Enter your firstname: ");
 		
 		String firstName = input.nextLine();
-		System.out.printf("Hello, %s%n",firstName);
-		
+				
 		System.out.print("Enter your lastname: ");
 		
 		String lastName = input.nextLine();
-		System.out.printf("Hello, %s%n",lastName);
 		
 		System.out.print("Enter your age: ");
 		
 		short age = input.nextShort();
-		System.out.printf("you are %d years old%n",age);
-		System.out.printf("you have $%.2f in your account%n",bal);
+		System.out.printf("Hello, %s %s of %d years of age.%nYou have $%.2f in your account%n",firstName,lastName,age,bal);
 	}
 }
