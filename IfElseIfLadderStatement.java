@@ -34,5 +34,6 @@ public class IfElseIfLadderStatement{
 		else {
 			System.out.printf("%s ->%d -> F%n",fullName, mark);
 		}
+	
 	}
 }
