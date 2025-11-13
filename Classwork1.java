@@ -3,7 +3,10 @@ import java.util.Scanner;
 public class Classwork1{
 	public static void main (String[] args){
 		Scanner input = new Scanner(System.in);
-		
+	String firstName = read.nextLine();
+       String secondName = read.nextLine();
+       int age = read.nextInt();
+       int roomNumber = read.nextInt();	
 		int num;
 		int nCount=0, pCount=0, zCount=0;
 		System.out.println("Input -1 when done");

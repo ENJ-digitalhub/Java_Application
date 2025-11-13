@@ -16,3 +16,4 @@ public class Sum{
 		input.close();
 	}
 }
+

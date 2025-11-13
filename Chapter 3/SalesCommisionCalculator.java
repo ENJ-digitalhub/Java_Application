@@ -20,7 +20,7 @@ public class SalesCommisionCalculator{
 			count++;
 			
 		}
-		float earnings = (float) (200+(0.09*totalSales));
+		float earnings = (float) 200+(0.09f*totalSales);
 		System.out.printf("Total earnings = %.2f%n",earnings);
 	}
 }
